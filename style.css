@@ -1,0 +1,226 @@
+@font-face {
+    font-family: logoFont;
+    src: url(css/OldNewspaperTypes.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background:url(images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#wrapper{
+    width:960px;
+    margin: 0 auto;
+}
+header{
+    font-family: 'Candal', sans-serif;
+    width:100%;
+    background: url(images/banner.jpg) no-repeat center;
+    color:white;
+    padding-top: 80px;
+    position: relative;
+    bottom:5px;
+    border-radius: 20px;
+}
+header h1{
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    font-family: logoFont;
+}
+header ul{
+    float:right;
+    position:relative;
+    bottom:200px;
+    right:10px;
+    list-style-type: none;
+    font-size: 120%;
+}
+header li{
+    display: inline-block;
+    padding:5px;
+    
+}
+header li a{
+    display: inline-block;
+    padding:5px;
+    font-size: 100%;
+    text-shadow: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size:120%;
+}
+header a:hover { 
+    border-bottom:  2px solid #107896;
+}
+
+#posts{
+    color:white;
+    border-radius: 20px;
+}
+#posts h2{
+    font-family: logoFont;
+    font-size: 200%;
+    position: relative;
+    left:20px;
+    top:10px;
+    border-radius: 5px;
+}
+#maincontent{
+    background-color: #107896;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+#posts p{
+    font-family: 'Josefin Slab', serif;
+    font-size: 120%;
+    text-align: justify;
+    padding:5px;
+    
+}
+#posts h3, h4{
+    position: relative;
+    left:10px;
+    bottom:10px;
+}
+footer{
+   text-align: center;
+}
+/***********************************************************************************
+                        Admin CSS
+***********************************************************************************/
+#contentChange h2{
+    font-size: 200%;
+    margin-bottom: 20px;
+    font-family: logoFont;
+    color:white;
+    position: relative;
+    left:20px;
+    top:10px;
+}
+#contentChange{
+    border-radius: 20px;
+    background-color: #107896;
+    color: white;
+    margin-bottom: 25px;
+}
+#contentChange p{
+    font-family: 'Josefin Slab', serif;
+    font-size: 120%;
+    text-align: justify;
+    padding:5px;
+    border-radius: 20px;
+}
+#contentChange h3{
+    font-family: 'Josefin Slab', serif;
+    font-size: 120%;
+    padding:5px;
+    position: relative;
+    left:10px;
+}
+#contentChange h4{
+    font-family: 'Josefin Slab', serif;
+    font-size: 120%;
+    padding:5px;
+}
+#contentChange a{
+    position: relative;
+    left:380px;
+    bottom:20px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    padding: 4px 16px;
+    font-size: 200%;
+    margin-left: 10px;
+}
+#contentChange a:hover{
+    color:gold;
+    border-bottom: 2px solid gold;
+}
+#numID{
+    display:none;
+}
+#newPost{
+    
+    background-color: #107896;
+    border-radius: 20px;
+}
+#newPost legend{
+    font-size: 200%;
+    position: relative;
+    left:350px;
+    margin-bottom: 20px;
+    font-family: logoFont;
+    color:white;
+}
+#newPost p{
+    color:white;
+    font-family: 'Josefin Slab', serif;
+    font-size: 150%;
+    text-shadow: 2px 2px green;
+}
+.error{
+    position: relative;
+    left:350px;
+    color:white;
+    text-shadow: 2px 2px red;
+    font-size: 120%;
+}
+li{
+    list-style-type: none;
+}
+.author{
+    width:350px;
+    height:25px;
+    border:1px solid #999;
+    position: relative;
+    left:200px;
+}
+.title{
+    width:350px;
+    height:25px;
+    border:1px solid #999;
+    position: relative;
+    left:200px;
+    margin-top: 10px;
+}
+.textA{
+    position: relative;
+    left:200px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.submit{
+    position: relative;
+    left:450px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border:none;
+    padding: 4px 16px;
+    height:36px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/***************************************************** about and contact **********************************/
+#uc{
+    border-radius: 20px;
+    background-color: #107896;
+    color: yellow;
+    margin-bottom: 25px;
+    font-family: logoFont;
+}
+#uc h1{
+    position: relative;
+    left:150px;
+    font-size: 250%;
+}
+#uc img{
+    position: relative;
+    left:220px;
+}
